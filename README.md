@@ -1,12 +1,12 @@
-# ANIMA operational considerations for BRSKI Registrar
+# Doing Attestation and Signing with GRASP
 
-The ANIMA WG Bootstrapping Remote Secure Key Infrastructure (BRSKI)
-protocol involves three parties: Pledge (device), Registrar and
-Manufacturer Authorized Signing Authority (MASA).
+In order to do Remote Attestation (RATS) in an ISP environment a source of freshness may be needed by Attesters.
+The use of Epoch IDs as describes in the RATS architecture is one way.
 
-This repository contains operational considerations for the Registrar
-function.  It is a candidate document for the ANIMA WG
-http://datatracker.ietf.org/wg/anima 
+There is a general need for freshness in the GRASP infrastructure involving M_FLOOD'ed information.
+
+This repository contains a proposed GRASP ASA that provides freshness.
+
 
 
 
